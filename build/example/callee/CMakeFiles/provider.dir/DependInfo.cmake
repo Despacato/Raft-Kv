@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/z/Raft-Kv/example/user.pb.cc" "example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o" "gcc" "example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o.d"
-  "/home/z/Raft-Kv/example/callee/userservice.cc" "example/callee/CMakeFiles/provider.dir/userservice.cc.o" "gcc" "example/callee/CMakeFiles/provider.dir/userservice.cc.o.d"
+  "/home/z/Raft-Kv/example/callee/userservice.cpp" "example/callee/CMakeFiles/provider.dir/userservice.cpp.o" "gcc" "example/callee/CMakeFiles/provider.dir/userservice.cpp.o.d"
   )
 
 # Targets to which this target links.

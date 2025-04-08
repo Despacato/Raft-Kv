@@ -69,19 +69,19 @@ include example/callee/CMakeFiles/provider.dir/progress.make
 # Include the compile flags for this target's objects.
 include example/callee/CMakeFiles/provider.dir/flags.make
 
-example/callee/CMakeFiles/provider.dir/userservice.cc.o: example/callee/CMakeFiles/provider.dir/flags.make
-example/callee/CMakeFiles/provider.dir/userservice.cc.o: ../example/callee/userservice.cc
-example/callee/CMakeFiles/provider.dir/userservice.cc.o: example/callee/CMakeFiles/provider.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/Raft-Kv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/callee/CMakeFiles/provider.dir/userservice.cc.o"
-	cd /home/z/Raft-Kv/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/callee/CMakeFiles/provider.dir/userservice.cc.o -MF CMakeFiles/provider.dir/userservice.cc.o.d -o CMakeFiles/provider.dir/userservice.cc.o -c /home/z/Raft-Kv/example/callee/userservice.cc
+example/callee/CMakeFiles/provider.dir/userservice.cpp.o: example/callee/CMakeFiles/provider.dir/flags.make
+example/callee/CMakeFiles/provider.dir/userservice.cpp.o: ../example/callee/userservice.cpp
+example/callee/CMakeFiles/provider.dir/userservice.cpp.o: example/callee/CMakeFiles/provider.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/Raft-Kv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/callee/CMakeFiles/provider.dir/userservice.cpp.o"
+	cd /home/z/Raft-Kv/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/callee/CMakeFiles/provider.dir/userservice.cpp.o -MF CMakeFiles/provider.dir/userservice.cpp.o.d -o CMakeFiles/provider.dir/userservice.cpp.o -c /home/z/Raft-Kv/example/callee/userservice.cpp
 
-example/callee/CMakeFiles/provider.dir/userservice.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/userservice.cc.i"
-	cd /home/z/Raft-Kv/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/Raft-Kv/example/callee/userservice.cc > CMakeFiles/provider.dir/userservice.cc.i
+example/callee/CMakeFiles/provider.dir/userservice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/userservice.cpp.i"
+	cd /home/z/Raft-Kv/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/Raft-Kv/example/callee/userservice.cpp > CMakeFiles/provider.dir/userservice.cpp.i
 
-example/callee/CMakeFiles/provider.dir/userservice.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/userservice.cc.s"
-	cd /home/z/Raft-Kv/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/Raft-Kv/example/callee/userservice.cc -o CMakeFiles/provider.dir/userservice.cc.s
+example/callee/CMakeFiles/provider.dir/userservice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/userservice.cpp.s"
+	cd /home/z/Raft-Kv/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/Raft-Kv/example/callee/userservice.cpp -o CMakeFiles/provider.dir/userservice.cpp.s
 
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: example/callee/CMakeFiles/provider.dir/flags.make
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: ../example/user.pb.cc
@@ -99,21 +99,22 @@ example/callee/CMakeFiles/provider.dir/__/user.pb.cc.s: cmake_force
 
 # Object files for target provider
 provider_OBJECTS = \
-"CMakeFiles/provider.dir/userservice.cc.o" \
+"CMakeFiles/provider.dir/userservice.cpp.o" \
 "CMakeFiles/provider.dir/__/user.pb.cc.o"
 
 # External object files for target provider
 provider_EXTERNAL_OBJECTS =
 
-../bin/provider: example/callee/CMakeFiles/provider.dir/userservice.cc.o
-../bin/provider: example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
-../bin/provider: example/callee/CMakeFiles/provider.dir/build.make
-../bin/provider: example/callee/CMakeFiles/provider.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/z/Raft-Kv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/provider"
+../lib/libprovider.a: example/callee/CMakeFiles/provider.dir/userservice.cpp.o
+../lib/libprovider.a: example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
+../lib/libprovider.a: example/callee/CMakeFiles/provider.dir/build.make
+../lib/libprovider.a: example/callee/CMakeFiles/provider.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/z/Raft-Kv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../lib/libprovider.a"
+	cd /home/z/Raft-Kv/build/example/callee && $(CMAKE_COMMAND) -P CMakeFiles/provider.dir/cmake_clean_target.cmake
 	cd /home/z/Raft-Kv/build/example/callee && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/provider.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-example/callee/CMakeFiles/provider.dir/build: ../bin/provider
+example/callee/CMakeFiles/provider.dir/build: ../lib/libprovider.a
 .PHONY : example/callee/CMakeFiles/provider.dir/build
 
 example/callee/CMakeFiles/provider.dir/clean:

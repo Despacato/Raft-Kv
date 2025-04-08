@@ -116,6 +116,68 @@ depend:
 	cd /home/z/Raft-Kv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/rpc/CMakeFiles/mprpc.dir/rule:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/rpc/CMakeFiles/mprpc.dir/rule
+.PHONY : src/rpc/CMakeFiles/mprpc.dir/rule
+
+# Convenience name for target.
+mprpc: src/rpc/CMakeFiles/mprpc.dir/rule
+.PHONY : mprpc
+
+# fast build rule for target.
+mprpc/fast:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/build
+.PHONY : mprpc/fast
+
+mprpcapplication.o: mprpcapplication.cpp.o
+.PHONY : mprpcapplication.o
+
+# target to build an object file
+mprpcapplication.cpp.o:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o
+.PHONY : mprpcapplication.cpp.o
+
+mprpcapplication.i: mprpcapplication.cpp.i
+.PHONY : mprpcapplication.i
+
+# target to preprocess a source file
+mprpcapplication.cpp.i:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcapplication.cpp.i
+.PHONY : mprpcapplication.cpp.i
+
+mprpcapplication.s: mprpcapplication.cpp.s
+.PHONY : mprpcapplication.s
+
+# target to generate assembly for a file
+mprpcapplication.cpp.s:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcapplication.cpp.s
+.PHONY : mprpcapplication.cpp.s
+
+rpcprovider.o: rpcprovider.cpp.o
+.PHONY : rpcprovider.o
+
+# target to build an object file
+rpcprovider.cpp.o:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
+.PHONY : rpcprovider.cpp.o
+
+rpcprovider.i: rpcprovider.cpp.i
+.PHONY : rpcprovider.i
+
+# target to preprocess a source file
+rpcprovider.cpp.i:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/rpcprovider.cpp.i
+.PHONY : rpcprovider.cpp.i
+
+rpcprovider.s: rpcprovider.cpp.s
+.PHONY : rpcprovider.s
+
+# target to generate assembly for a file
+rpcprovider.cpp.s:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/rpcprovider.cpp.s
+.PHONY : rpcprovider.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +186,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... mprpc"
+	@echo "... mprpcapplication.o"
+	@echo "... mprpcapplication.i"
+	@echo "... mprpcapplication.s"
+	@echo "... rpcprovider.o"
+	@echo "... rpcprovider.i"
+	@echo "... rpcprovider.s"
 .PHONY : help
 
 

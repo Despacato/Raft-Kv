@@ -13,8 +13,9 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 #项目头文件的搜索路径
-include_directories(${PROJECT_SOURCE_DIR}/src/common/include)
+include_directories(${PROJECT_SOURCE_DIR}/example/include)
 include_directories(${PROJECT_SOURCE_DIR}/src/rpc/include)
+include_directories(${PROJECT_SOURCE_DIR}/example)
 include_directories(${PROJECT_SOURCE_DIR}/src/raftCore/include)
 include_directories(${PROJECT_SOURCE_DIR}/src/raftClerk/include)
 include_directories(${PROJECT_SOURCE_DIR}/src/skipList/include)
@@ -24,6 +25,8 @@ link_directories(${PROJECT_SOURCE_DIR}/lib)
 
 #SRC
 add_subdirectory(src)
+add_subdirectory(example)
+#add_subdirectory(test)
 #EXAMPLE
 #add_subdirectory(example)
 

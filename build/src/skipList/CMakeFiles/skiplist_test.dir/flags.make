@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/skipList/include
+CXX_INCLUDES = -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/skipList/include
 
 CXX_FLAGS = -g -std=gnu++20
 

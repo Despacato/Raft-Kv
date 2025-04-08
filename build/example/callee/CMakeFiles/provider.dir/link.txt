@@ -1,1 +1,2 @@
-/usr/bin/c++ -g CMakeFiles/provider.dir/userservice.cc.o CMakeFiles/provider.dir/__/user.pb.cc.o -o ../../../bin/provider   -L/home/z/Raft-Kv/lib 
+/usr/bin/ar qc ../../../lib/libprovider.a CMakeFiles/provider.dir/userservice.cpp.o CMakeFiles/provider.dir/__/user.pb.cc.o
+/usr/bin/ranlib ../../../lib/libprovider.a

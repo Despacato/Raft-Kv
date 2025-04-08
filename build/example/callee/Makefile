@@ -154,29 +154,29 @@ __/user.pb.cc.s:
 	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.s
 .PHONY : __/user.pb.cc.s
 
-userservice.o: userservice.cc.o
+userservice.o: userservice.cpp.o
 .PHONY : userservice.o
 
 # target to build an object file
-userservice.cc.o:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.o
-.PHONY : userservice.cc.o
+userservice.cpp.o:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cpp.o
+.PHONY : userservice.cpp.o
 
-userservice.i: userservice.cc.i
+userservice.i: userservice.cpp.i
 .PHONY : userservice.i
 
 # target to preprocess a source file
-userservice.cc.i:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.i
-.PHONY : userservice.cc.i
+userservice.cpp.i:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cpp.i
+.PHONY : userservice.cpp.i
 
-userservice.s: userservice.cc.s
+userservice.s: userservice.cpp.s
 .PHONY : userservice.s
 
 # target to generate assembly for a file
-userservice.cc.s:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.s
-.PHONY : userservice.cc.s
+userservice.cpp.s:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cpp.s
+.PHONY : userservice.cpp.s
 
 # Help Target
 help:
