@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/provider.dir/userservice.cc.o CMakeFiles/provider.dir/__/user.pb.cc.o -o ../../../bin/provider   -L/home/z/Raft-Kv/lib 
