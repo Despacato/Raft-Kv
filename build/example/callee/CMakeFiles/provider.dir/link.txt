@@ -1,2 +1,1 @@
-/usr/bin/ar qc ../../../lib/libprovider.a CMakeFiles/provider.dir/userservice.cpp.o CMakeFiles/provider.dir/__/user.pb.cc.o
-/usr/bin/ranlib ../../../lib/libprovider.a
+/usr/bin/c++ -g CMakeFiles/provider.dir/userservice.cpp.o CMakeFiles/provider.dir/__/user.pb.cc.o -o ../../../bin/provider   -L/home/z/Raft-Kv/lib  -Wl,-rpath,/home/z/Raft-Kv/lib ../../../lib/libmprpc.so -lprotobuf -lmuduo_net -lmuduo_base 

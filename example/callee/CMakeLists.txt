@@ -7,6 +7,6 @@ set(SRC_LIST
 
 )
 
-add_library(provider ${SRC_LIST})
+add_executable(provider ${SRC_LIST})
 
-target_link_libraries(provider protobuf muduo_net muduo_base)
+target_link_libraries(provider mprpc protobuf muduo_net muduo_base)

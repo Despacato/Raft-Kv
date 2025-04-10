@@ -6,11 +6,11 @@
 
 set(RPC_LIST
     ./mprpcapplication.cpp
+    ./mprpcconfig.cpp
     ./rpcprovider.cpp
-    # 添加其他必要的源文件
 )
 
-
+#生成动态库给其他用户使用
 add_library(mprpc SHARED ${RPC_LIST})
 target_link_libraries(mprpc provider protobuf muduo_net muduo_base)
 

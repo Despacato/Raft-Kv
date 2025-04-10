@@ -154,6 +154,30 @@ mprpcapplication.cpp.s:
 	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcapplication.cpp.s
 .PHONY : mprpcapplication.cpp.s
 
+mprpcconfig.o: mprpcconfig.cpp.o
+.PHONY : mprpcconfig.o
+
+# target to build an object file
+mprpcconfig.cpp.o:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o
+.PHONY : mprpcconfig.cpp.o
+
+mprpcconfig.i: mprpcconfig.cpp.i
+.PHONY : mprpcconfig.i
+
+# target to preprocess a source file
+mprpcconfig.cpp.i:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcconfig.cpp.i
+.PHONY : mprpcconfig.cpp.i
+
+mprpcconfig.s: mprpcconfig.cpp.s
+.PHONY : mprpcconfig.s
+
+# target to generate assembly for a file
+mprpcconfig.cpp.s:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcconfig.cpp.s
+.PHONY : mprpcconfig.cpp.s
+
 rpcprovider.o: rpcprovider.cpp.o
 .PHONY : rpcprovider.o
 
@@ -190,6 +214,9 @@ help:
 	@echo "... mprpcapplication.o"
 	@echo "... mprpcapplication.i"
 	@echo "... mprpcapplication.s"
+	@echo "... mprpcconfig.o"
+	@echo "... mprpcconfig.i"
+	@echo "... mprpcconfig.s"
 	@echo "... rpcprovider.o"
 	@echo "... rpcprovider.i"
 	@echo "... rpcprovider.s"

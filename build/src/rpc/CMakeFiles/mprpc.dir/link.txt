@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libmprpc.so -o ../../../lib/libmprpc.so CMakeFiles/mprpc.dir/mprpcapplication.cpp.o CMakeFiles/mprpc.dir/mprpcconfig.cpp.o CMakeFiles/mprpc.dir/rpcprovider.cpp.o   -L/home/z/Raft-Kv/lib  -Wl,-rpath,/home/z/Raft-Kv/lib -lprovider -lprotobuf -lmuduo_net -lmuduo_base 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../lib/libprovider.a"
-  "../../../lib/libprovider.pdb"
+  "../../../bin/provider"
+  "../../../bin/provider.pdb"
   "CMakeFiles/provider.dir/__/user.pb.cc.o"
   "CMakeFiles/provider.dir/__/user.pb.cc.o.d"
   "CMakeFiles/provider.dir/userservice.cpp.o"
