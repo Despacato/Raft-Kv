@@ -40,3 +40,5 @@ std::string MprpcConfig::Load(const std::string &key)
     }
     return m_configMap[key];
 }
+
+

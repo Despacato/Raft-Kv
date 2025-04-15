@@ -11,7 +11,7 @@ set(RPC_LIST
 )
 
 #生成动态库给其他用户使用
-add_library(mprpc SHARED ${RPC_LIST})
+add_library(mprpc STATIC ${RPC_LIST})
 target_link_libraries(mprpc provider protobuf muduo_net muduo_base)
 
 
