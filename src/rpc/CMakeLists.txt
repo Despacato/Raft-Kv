@@ -8,6 +8,7 @@ set(RPC_LIST
     ./mprpcapplication.cpp
     ./mprpcconfig.cpp
     ./rpcprovider.cpp
+    ../rpcheader.pb.cc
 )
 
 #生成动态库给其他用户使用
