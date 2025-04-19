@@ -39,7 +39,6 @@ void MprpcApplication::Init(int argc, char **argv)
             break;
         }
 
-        // 开始加载配置文件
         // 静态方法没有this指针，不能访问类内的具体实例 所以m_config也需要是静态的
         m_config.LoadConfigFile(config_file.c_str());
 

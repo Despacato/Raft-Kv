@@ -126,32 +126,23 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr &conn, muduo::net
     google::protobuf::Message *response = service->GetResponsePrototype(method).New();
 
     // 给下面的method方法的调用，绑定一个Closure的回调函数。
-    google::protobuf::NewCallback();
+    google::protobuf::Closure *done = google::protobuf::NewCallback<RpcProvider, const muduo::net::TcpConnectionPtr &, google::protobuf::Message *>(this, &RpcProvider::SendRpcResponse, conn, response);
     // 在框架上根据远端rpc请求，调用当前rpc节点上发布的方法
 
-    service->CallMethod(method, nullptr, request, response, );
+    service->CallMethod(method, nullptr, request, response, done);
 }
 
 void RpcProvider::SendRpcResponse(const muduo::net::TcpConnectionPtr &conn, google::protobuf::Message *response)
 {
-    // 1.序列化响应数据
-    std::string send_str;
-    response->SerializeToString(&send_str);
-    // 2.获取响应数据的大小
-    uint32_t send_size = static_cast<uint32_t>(send_str.size());
-    // 3.拼接rpc响应数据头
-    mprpc::RpcHeader rpc_header;
-    rpc_header.set_service_name("UserService");
-    rpc_header.set_method_name("Login");
-    rpc_header.set_args_size(send_size);
-    std::string header_str;
-    rpc_header.SerializeToString(&header_str);
-    // 4.拼接rpc响应数据头和rpc响应数据
-    std::string send_buf;
-    send_buf.append((char *)&send_size, 4);
-    send_buf.append(header_str);
-    send_buf.append(send_str);
-
-    // 5.发送rpc响应数据
-    conn->send(send_buf);
+    std::string response_str;
+    if (response->SerializeToString(&response_str))
+    {
+        // 发送rpc响应
+        conn->send(response_str);
+    }
+    else
+    {
+        std::cout << "response serialize error!" << std::endl;
+    }
+    conn->shutdown(); // 关闭连接
 }

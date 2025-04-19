@@ -8,7 +8,9 @@ set(RPC_LIST
     ./mprpcapplication.cpp
     ./mprpcconfig.cpp
     ./rpcprovider.cpp
-    ../rpcheader.pb.cc
+    ./mprpcchannel.cpp
+    ./rpcheader.pb.cc
+    ./mprpccontroller.cpp
 )
 
 #生成动态库给其他用户使用

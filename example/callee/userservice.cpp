@@ -7,11 +7,17 @@
 class UserService : public fixbug::UserServiceRpc // 继承自生成的 UserService 类
 {
 public:
-       bool Login(std::string name, std::string pwd)
+    bool Login(std::string name, std::string pwd)
     {
         // 处理登录请求
         std::cout << "Login request received: " << name << ", " << pwd << std::endl;
         return true; // 假设登录成功
+    }
+
+    bool Register(u_int32_t id,std::string name, std::string pwd)
+    {
+        std::cout << "Register request received: " << name << ", " << pwd << std::endl;
+        return true; // 假设注册成功
     }
 
     void Login(::google::protobuf::RpcController *controller,
@@ -32,6 +38,28 @@ public:
         response->set_success(login_result);
 
         // 调用完成回调 //执行响应对象数据的序列化和网络发送
+        done->Run();
+    }
+
+    void Register(::google::protobuf::RpcController *controller,
+                  const ::fixbug::RegisterRequest *request,
+                  ::fixbug::RegisterResponse *response,
+                  ::google::protobuf::Closure *done)
+    {
+        // 处理注册请求
+        uint32_t id = request->id();
+        std::string name = request->name();
+        std::string pwd = request->pwd();
+
+        bool register_result = Register(id,name, pwd);
+
+        // 设置响应结果
+        fixbug::ResultCode *result = response->mutable_result();
+        result->set_errcode(0);
+        result->set_errmsg("Register successful");
+        response->set_success(register_result);
+
+        // 调用完成回调
         done->Run();
     }
 };

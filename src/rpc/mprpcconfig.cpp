@@ -36,9 +36,7 @@ std::string MprpcConfig::Load(const std::string &key)
     if (it == m_configMap.end())
     {
         std::cout << key << "is not exist" << std::endl;
-        return "";
+        return " ";
     }
     return m_configMap[key];
 }
-
-
