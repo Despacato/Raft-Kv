@@ -6,6 +6,7 @@
 #include <muduo/net/InetAddress.h>
 #include <string>
 #include <unordered_map>
+#include "logger.h"
 
 class RpcProvider
 {

@@ -11,6 +11,7 @@ set(RPC_LIST
     ./mprpcchannel.cpp
     ./rpcheader.pb.cc
     ./mprpccontroller.cpp
+    ./logger.cpp
 )
 
 #生成动态库给其他用户使用
