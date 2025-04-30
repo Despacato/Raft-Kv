@@ -323,7 +323,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -367,9 +367,17 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Description of the variable
-src_raftClerk:INTERNAL=
+src_common:INTERNAL=/home/z/Raft-Kv/src/common/util.cpp
 //Description of the variable
-src_raftCore:INTERNAL=
+src_fiber:INTERNAL=/home/z/Raft-Kv/src/fiber/fd_manager.cpp;/home/z/Raft-Kv/src/fiber/fiber.cpp;/home/z/Raft-Kv/src/fiber/hook.cpp;/home/z/Raft-Kv/src/fiber/iomanager.cpp;/home/z/Raft-Kv/src/fiber/scheduler.cpp;/home/z/Raft-Kv/src/fiber/thread.cpp;/home/z/Raft-Kv/src/fiber/timer.cpp;/home/z/Raft-Kv/src/fiber/utils.cpp
 //Description of the variable
-src_skipList:INTERNAL=/home/z/Raft-Kv/src/skipList/skiplist_test.cpp
+src_raftClerk:INTERNAL=/home/z/Raft-Kv/src/raftClerk/clerk.cpp;/home/z/Raft-Kv/src/raftClerk/raftServerRpcUtil.cpp
+//Description of the variable
+src_raftCore:INTERNAL=/home/z/Raft-Kv/src/raftCore/kvServer.cpp;/home/z/Raft-Kv/src/raftCore/Persister.cpp;/home/z/Raft-Kv/src/raftCore/raft.cpp;/home/z/Raft-Kv/src/raftCore/raftRpcUtil.cpp
+//Description of the variable
+src_raftRpc:INTERNAL=/home/z/Raft-Kv/src/raftRpc/kvServerRPC.pb.cc;/home/z/Raft-Kv/src/raftRpc/raftRPC.pb.cc
+//Description of the variable
+src_rpc:INTERNAL=/home/z/Raft-Kv/src/rpc/mprpcchannel.cpp;/home/z/Raft-Kv/src/rpc/mprpcconfig.cpp;/home/z/Raft-Kv/src/rpc/mprpccontroller.cpp;/home/z/Raft-Kv/src/rpc/rpcheader.pb.cc;/home/z/Raft-Kv/src/rpc/rpcprovider.cpp
+//Description of the variable
+src_skipList:INTERNAL=
 

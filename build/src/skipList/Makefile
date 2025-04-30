@@ -116,44 +116,6 @@ depend:
 	cd /home/z/Raft-Kv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-src/skipList/CMakeFiles/skiplist_test.dir/rule:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/skipList/CMakeFiles/skiplist_test.dir/rule
-.PHONY : src/skipList/CMakeFiles/skiplist_test.dir/rule
-
-# Convenience name for target.
-skiplist_test: src/skipList/CMakeFiles/skiplist_test.dir/rule
-.PHONY : skiplist_test
-
-# fast build rule for target.
-skiplist_test/fast:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/skipList/CMakeFiles/skiplist_test.dir/build.make src/skipList/CMakeFiles/skiplist_test.dir/build
-.PHONY : skiplist_test/fast
-
-skiplist_test.o: skiplist_test.cpp.o
-.PHONY : skiplist_test.o
-
-# target to build an object file
-skiplist_test.cpp.o:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/skipList/CMakeFiles/skiplist_test.dir/build.make src/skipList/CMakeFiles/skiplist_test.dir/skiplist_test.cpp.o
-.PHONY : skiplist_test.cpp.o
-
-skiplist_test.i: skiplist_test.cpp.i
-.PHONY : skiplist_test.i
-
-# target to preprocess a source file
-skiplist_test.cpp.i:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/skipList/CMakeFiles/skiplist_test.dir/build.make src/skipList/CMakeFiles/skiplist_test.dir/skiplist_test.cpp.i
-.PHONY : skiplist_test.cpp.i
-
-skiplist_test.s: skiplist_test.cpp.s
-.PHONY : skiplist_test.s
-
-# target to generate assembly for a file
-skiplist_test.cpp.s:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/skipList/CMakeFiles/skiplist_test.dir/build.make src/skipList/CMakeFiles/skiplist_test.dir/skiplist_test.cpp.s
-.PHONY : skiplist_test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,10 +124,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... skiplist_test"
-	@echo "... skiplist_test.o"
-	@echo "... skiplist_test.i"
-	@echo "... skiplist_test.s"
 .PHONY : help
 
 

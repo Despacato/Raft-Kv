@@ -117,49 +117,73 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/rpc/CMakeFiles/mprpc.dir/rule:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/rpc/CMakeFiles/mprpc.dir/rule
-.PHONY : src/rpc/CMakeFiles/mprpc.dir/rule
+src/rpc/CMakeFiles/rpc_lib.dir/rule:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/rpc/CMakeFiles/rpc_lib.dir/rule
+.PHONY : src/rpc/CMakeFiles/rpc_lib.dir/rule
 
 # Convenience name for target.
-mprpc: src/rpc/CMakeFiles/mprpc.dir/rule
-.PHONY : mprpc
+rpc_lib: src/rpc/CMakeFiles/rpc_lib.dir/rule
+.PHONY : rpc_lib
 
 # fast build rule for target.
-mprpc/fast:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/build
-.PHONY : mprpc/fast
+rpc_lib/fast:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/build
+.PHONY : rpc_lib/fast
 
-mprpcapplication.o: mprpcapplication.cpp.o
-.PHONY : mprpcapplication.o
+__/common/util.o: __/common/util.cpp.o
+.PHONY : __/common/util.o
 
 # target to build an object file
-mprpcapplication.cpp.o:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o
-.PHONY : mprpcapplication.cpp.o
+__/common/util.cpp.o:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/__/common/util.cpp.o
+.PHONY : __/common/util.cpp.o
 
-mprpcapplication.i: mprpcapplication.cpp.i
-.PHONY : mprpcapplication.i
+__/common/util.i: __/common/util.cpp.i
+.PHONY : __/common/util.i
 
 # target to preprocess a source file
-mprpcapplication.cpp.i:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcapplication.cpp.i
-.PHONY : mprpcapplication.cpp.i
+__/common/util.cpp.i:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/__/common/util.cpp.i
+.PHONY : __/common/util.cpp.i
 
-mprpcapplication.s: mprpcapplication.cpp.s
-.PHONY : mprpcapplication.s
+__/common/util.s: __/common/util.cpp.s
+.PHONY : __/common/util.s
 
 # target to generate assembly for a file
-mprpcapplication.cpp.s:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcapplication.cpp.s
-.PHONY : mprpcapplication.cpp.s
+__/common/util.cpp.s:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/__/common/util.cpp.s
+.PHONY : __/common/util.cpp.s
+
+mprpcchannel.o: mprpcchannel.cpp.o
+.PHONY : mprpcchannel.o
+
+# target to build an object file
+mprpcchannel.cpp.o:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/mprpcchannel.cpp.o
+.PHONY : mprpcchannel.cpp.o
+
+mprpcchannel.i: mprpcchannel.cpp.i
+.PHONY : mprpcchannel.i
+
+# target to preprocess a source file
+mprpcchannel.cpp.i:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/mprpcchannel.cpp.i
+.PHONY : mprpcchannel.cpp.i
+
+mprpcchannel.s: mprpcchannel.cpp.s
+.PHONY : mprpcchannel.s
+
+# target to generate assembly for a file
+mprpcchannel.cpp.s:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/mprpcchannel.cpp.s
+.PHONY : mprpcchannel.cpp.s
 
 mprpcconfig.o: mprpcconfig.cpp.o
 .PHONY : mprpcconfig.o
 
 # target to build an object file
 mprpcconfig.cpp.o:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/mprpcconfig.cpp.o
 .PHONY : mprpcconfig.cpp.o
 
 mprpcconfig.i: mprpcconfig.cpp.i
@@ -167,7 +191,7 @@ mprpcconfig.i: mprpcconfig.cpp.i
 
 # target to preprocess a source file
 mprpcconfig.cpp.i:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcconfig.cpp.i
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/mprpcconfig.cpp.i
 .PHONY : mprpcconfig.cpp.i
 
 mprpcconfig.s: mprpcconfig.cpp.s
@@ -175,15 +199,63 @@ mprpcconfig.s: mprpcconfig.cpp.s
 
 # target to generate assembly for a file
 mprpcconfig.cpp.s:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/mprpcconfig.cpp.s
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/mprpcconfig.cpp.s
 .PHONY : mprpcconfig.cpp.s
+
+mprpccontroller.o: mprpccontroller.cpp.o
+.PHONY : mprpccontroller.o
+
+# target to build an object file
+mprpccontroller.cpp.o:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/mprpccontroller.cpp.o
+.PHONY : mprpccontroller.cpp.o
+
+mprpccontroller.i: mprpccontroller.cpp.i
+.PHONY : mprpccontroller.i
+
+# target to preprocess a source file
+mprpccontroller.cpp.i:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/mprpccontroller.cpp.i
+.PHONY : mprpccontroller.cpp.i
+
+mprpccontroller.s: mprpccontroller.cpp.s
+.PHONY : mprpccontroller.s
+
+# target to generate assembly for a file
+mprpccontroller.cpp.s:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/mprpccontroller.cpp.s
+.PHONY : mprpccontroller.cpp.s
+
+rpcheader.pb.o: rpcheader.pb.cc.o
+.PHONY : rpcheader.pb.o
+
+# target to build an object file
+rpcheader.pb.cc.o:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/rpcheader.pb.cc.o
+.PHONY : rpcheader.pb.cc.o
+
+rpcheader.pb.i: rpcheader.pb.cc.i
+.PHONY : rpcheader.pb.i
+
+# target to preprocess a source file
+rpcheader.pb.cc.i:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/rpcheader.pb.cc.i
+.PHONY : rpcheader.pb.cc.i
+
+rpcheader.pb.s: rpcheader.pb.cc.s
+.PHONY : rpcheader.pb.s
+
+# target to generate assembly for a file
+rpcheader.pb.cc.s:
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/rpcheader.pb.cc.s
+.PHONY : rpcheader.pb.cc.s
 
 rpcprovider.o: rpcprovider.cpp.o
 .PHONY : rpcprovider.o
 
 # target to build an object file
 rpcprovider.cpp.o:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/rpcprovider.cpp.o
 .PHONY : rpcprovider.cpp.o
 
 rpcprovider.i: rpcprovider.cpp.i
@@ -191,7 +263,7 @@ rpcprovider.i: rpcprovider.cpp.i
 
 # target to preprocess a source file
 rpcprovider.cpp.i:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/rpcprovider.cpp.i
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/rpcprovider.cpp.i
 .PHONY : rpcprovider.cpp.i
 
 rpcprovider.s: rpcprovider.cpp.s
@@ -199,7 +271,7 @@ rpcprovider.s: rpcprovider.cpp.s
 
 # target to generate assembly for a file
 rpcprovider.cpp.s:
-	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/mprpc.dir/build.make src/rpc/CMakeFiles/mprpc.dir/rpcprovider.cpp.s
+	cd /home/z/Raft-Kv/build && $(MAKE) $(MAKESILENT) -f src/rpc/CMakeFiles/rpc_lib.dir/build.make src/rpc/CMakeFiles/rpc_lib.dir/rpcprovider.cpp.s
 .PHONY : rpcprovider.cpp.s
 
 # Help Target
@@ -210,13 +282,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mprpc"
-	@echo "... mprpcapplication.o"
-	@echo "... mprpcapplication.i"
-	@echo "... mprpcapplication.s"
+	@echo "... rpc_lib"
+	@echo "... __/common/util.o"
+	@echo "... __/common/util.i"
+	@echo "... __/common/util.s"
+	@echo "... mprpcchannel.o"
+	@echo "... mprpcchannel.i"
+	@echo "... mprpcchannel.s"
 	@echo "... mprpcconfig.o"
 	@echo "... mprpcconfig.i"
 	@echo "... mprpcconfig.s"
+	@echo "... mprpccontroller.o"
+	@echo "... mprpccontroller.i"
+	@echo "... mprpccontroller.s"
+	@echo "... rpcheader.pb.o"
+	@echo "... rpcheader.pb.i"
+	@echo "... rpcheader.pb.s"
 	@echo "... rpcprovider.o"
 	@echo "... rpcprovider.i"
 	@echo "... rpcprovider.s"
