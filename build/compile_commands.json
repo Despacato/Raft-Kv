@@ -1,0 +1,207 @@
+[
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/rpc/mprpcchannel.cpp.o -c /home/z/Raft-Kv/src/rpc/mprpcchannel.cpp",
+  "file": "/home/z/Raft-Kv/src/rpc/mprpcchannel.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/rpc/mprpcconfig.cpp.o -c /home/z/Raft-Kv/src/rpc/mprpcconfig.cpp",
+  "file": "/home/z/Raft-Kv/src/rpc/mprpcconfig.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/rpc/mprpccontroller.cpp.o -c /home/z/Raft-Kv/src/rpc/mprpccontroller.cpp",
+  "file": "/home/z/Raft-Kv/src/rpc/mprpccontroller.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/rpc/rpcheader.pb.cc.o -c /home/z/Raft-Kv/src/rpc/rpcheader.pb.cc",
+  "file": "/home/z/Raft-Kv/src/rpc/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/rpc/rpcprovider.cpp.o -c /home/z/Raft-Kv/src/rpc/rpcprovider.cpp",
+  "file": "/home/z/Raft-Kv/src/rpc/rpcprovider.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/raftRpc/kvServerRPC.pb.cc.o -c /home/z/Raft-Kv/src/raftRpc/kvServerRPC.pb.cc",
+  "file": "/home/z/Raft-Kv/src/raftRpc/kvServerRPC.pb.cc"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/raftRpc/raftRPC.pb.cc.o -c /home/z/Raft-Kv/src/raftRpc/raftRPC.pb.cc",
+  "file": "/home/z/Raft-Kv/src/raftRpc/raftRPC.pb.cc"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/raftCore/kvServer.cpp.o -c /home/z/Raft-Kv/src/raftCore/kvServer.cpp",
+  "file": "/home/z/Raft-Kv/src/raftCore/kvServer.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/raftCore/Persister.cpp.o -c /home/z/Raft-Kv/src/raftCore/Persister.cpp",
+  "file": "/home/z/Raft-Kv/src/raftCore/Persister.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/raftCore/raft.cpp.o -c /home/z/Raft-Kv/src/raftCore/raft.cpp",
+  "file": "/home/z/Raft-Kv/src/raftCore/raft.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/raftCore/raftRpcUtil.cpp.o -c /home/z/Raft-Kv/src/raftCore/raftRpcUtil.cpp",
+  "file": "/home/z/Raft-Kv/src/raftCore/raftRpcUtil.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/raftClerk/clerk.cpp.o -c /home/z/Raft-Kv/src/raftClerk/clerk.cpp",
+  "file": "/home/z/Raft-Kv/src/raftClerk/clerk.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/raftClerk/raftServerRpcUtil.cpp.o -c /home/z/Raft-Kv/src/raftClerk/raftServerRpcUtil.cpp",
+  "file": "/home/z/Raft-Kv/src/raftClerk/raftServerRpcUtil.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/common/util.cpp.o -c /home/z/Raft-Kv/src/common/util.cpp",
+  "file": "/home/z/Raft-Kv/src/common/util.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/fiber/fd_manager.cpp.o -c /home/z/Raft-Kv/src/fiber/fd_manager.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/fd_manager.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/fiber/fiber.cpp.o -c /home/z/Raft-Kv/src/fiber/fiber.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/fiber.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/fiber/hook.cpp.o -c /home/z/Raft-Kv/src/fiber/hook.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/hook.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/fiber/iomanager.cpp.o -c /home/z/Raft-Kv/src/fiber/iomanager.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/iomanager.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/fiber/scheduler.cpp.o -c /home/z/Raft-Kv/src/fiber/scheduler.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/scheduler.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/fiber/thread.cpp.o -c /home/z/Raft-Kv/src/fiber/thread.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/thread.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/fiber/timer.cpp.o -c /home/z/Raft-Kv/src/fiber/timer.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/timer.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/skip_list_on_raft.dir/src/fiber/utils.cpp.o -c /home/z/Raft-Kv/src/fiber/utils.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/utils.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/fiber",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/fiber_lib.dir/fd_manager.cpp.o -c /home/z/Raft-Kv/src/fiber/fd_manager.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/fd_manager.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/fiber",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/fiber_lib.dir/fiber.cpp.o -c /home/z/Raft-Kv/src/fiber/fiber.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/fiber.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/fiber",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/fiber_lib.dir/hook.cpp.o -c /home/z/Raft-Kv/src/fiber/hook.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/hook.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/fiber",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/fiber_lib.dir/iomanager.cpp.o -c /home/z/Raft-Kv/src/fiber/iomanager.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/iomanager.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/fiber",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/fiber_lib.dir/scheduler.cpp.o -c /home/z/Raft-Kv/src/fiber/scheduler.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/scheduler.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/fiber",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/fiber_lib.dir/thread.cpp.o -c /home/z/Raft-Kv/src/fiber/thread.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/thread.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/fiber",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/fiber_lib.dir/timer.cpp.o -c /home/z/Raft-Kv/src/fiber/timer.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/timer.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/fiber",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/fiber_lib.dir/utils.cpp.o -c /home/z/Raft-Kv/src/fiber/utils.cpp",
+  "file": "/home/z/Raft-Kv/src/fiber/utils.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/rpc",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/rpc_lib.dir/mprpcchannel.cpp.o -c /home/z/Raft-Kv/src/rpc/mprpcchannel.cpp",
+  "file": "/home/z/Raft-Kv/src/rpc/mprpcchannel.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/rpc",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/rpc_lib.dir/mprpcconfig.cpp.o -c /home/z/Raft-Kv/src/rpc/mprpcconfig.cpp",
+  "file": "/home/z/Raft-Kv/src/rpc/mprpcconfig.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/rpc",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/rpc_lib.dir/mprpccontroller.cpp.o -c /home/z/Raft-Kv/src/rpc/mprpccontroller.cpp",
+  "file": "/home/z/Raft-Kv/src/rpc/mprpccontroller.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/rpc",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/rpc_lib.dir/rpcheader.pb.cc.o -c /home/z/Raft-Kv/src/rpc/rpcheader.pb.cc",
+  "file": "/home/z/Raft-Kv/src/rpc/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/rpc",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/rpc_lib.dir/rpcprovider.cpp.o -c /home/z/Raft-Kv/src/rpc/rpcprovider.cpp",
+  "file": "/home/z/Raft-Kv/src/rpc/rpcprovider.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/src/rpc",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/rpc_lib.dir/__/common/util.cpp.o -c /home/z/Raft-Kv/src/common/util.cpp",
+  "file": "/home/z/Raft-Kv/src/common/util.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/example/raftkv",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/raftCoreRun.dir/raftKvDB.cpp.o -c /home/z/Raft-Kv/example/raftkv/raftKvDB.cpp",
+  "file": "/home/z/Raft-Kv/example/raftkv/raftKvDB.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/example/raftkv",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/callerMain.dir/__/__/src/raftClerk/clerk.cpp.o -c /home/z/Raft-Kv/src/raftClerk/clerk.cpp",
+  "file": "/home/z/Raft-Kv/src/raftClerk/clerk.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/example/raftkv",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/callerMain.dir/__/__/src/raftClerk/raftServerRpcUtil.cpp.o -c /home/z/Raft-Kv/src/raftClerk/raftServerRpcUtil.cpp",
+  "file": "/home/z/Raft-Kv/src/raftClerk/raftServerRpcUtil.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/example/raftkv",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/callerMain.dir/caller.cpp.o -c /home/z/Raft-Kv/example/raftkv/caller.cpp",
+  "file": "/home/z/Raft-Kv/example/raftkv/caller.cpp"
+},
+{
+  "directory": "/home/z/Raft-Kv/build/example/raftkv",
+  "command": "/usr/bin/g++  -I/home/z/Raft-Kv/example/include -I/home/z/Raft-Kv/src/rpc/include -I/home/z/Raft-Kv/example -I/home/z/Raft-Kv/src/fiber/include -I/home/z/Raft-Kv/src/raftCore/include -I/home/z/Raft-Kv/src/raftClerk/include -I/home/z/Raft-Kv/src/raftRpc/include -I/home/z/Raft-Kv/src/common/include -I/home/z/Raft-Kv/src/skipList/include -g -std=gnu++20 -o CMakeFiles/callerMain.dir/__/__/src/common/util.cpp.o -c /home/z/Raft-Kv/src/common/util.cpp",
+  "file": "/home/z/Raft-Kv/src/common/util.cpp"
+}
+]

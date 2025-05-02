@@ -16,22 +16,20 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 include_directories(${PROJECT_SOURCE_DIR}/example/include)
 include_directories(${PROJECT_SOURCE_DIR}/src/rpc/include)
 include_directories(${PROJECT_SOURCE_DIR}/example)
+include_directories(${PROJECT_SOURCE_DIR}/src/fiber/include)
 include_directories(${PROJECT_SOURCE_DIR}/src/raftCore/include)
 include_directories(${PROJECT_SOURCE_DIR}/src/raftClerk/include)
+include_directories(${PROJECT_SOURCE_DIR}/src/raftRpc/include)
+include_directories(${PROJECT_SOURCE_DIR}/src/common/include)
 include_directories(${PROJECT_SOURCE_DIR}/src/skipList/include)
 
 #项目库文件的搜索路径
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 
-#SRC
+
 add_subdirectory(src)
 add_subdirectory(example)
-#add_subdirectory(test)
-#EXAMPLE
-#add_subdirectory(example)
 
-#add_library(skip_list_on_raft STATIC  ${src_rpc} ${src_raftCore} )
-#target_link_libraries(skip_list_on_raft muduo_net muduo_base pthread dl)
-# 添加格式化目标 start
-# from : https://blog.csdn.net/guotianqing/article/details/121661067
+
+add_library(skip_list_on_raft STATIC ${src_rpc} ${src_raftRpc} ${src_raftCore} ${src_raftClerk} ${src_common} ${src_fiber})
 

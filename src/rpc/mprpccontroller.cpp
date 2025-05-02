@@ -1,38 +1,25 @@
 #include "mprpccontroller.h"
 
-MprpcController::MprpcController() : m_failed(false), m_errorText("") {}
-
-void MprpcController::Reset()
-{
-    m_failed = false;
-    m_errorText.clear();
+MprpcController::MprpcController() {
+  m_failed = false;
+  m_errText = "";
 }
 
-bool MprpcController::Failed() const
-{
-    return m_failed;
+void MprpcController::Reset() {
+  m_failed = false;
+  m_errText = "";
 }
 
-std::string MprpcController::ErrorText() const
-{
-    return m_errorText;
+bool MprpcController::Failed() const { return m_failed; }
+
+std::string MprpcController::ErrorText() const { return m_errText; }
+
+void MprpcController::SetFailed(const std::string& reason) {
+  m_failed = true;
+  m_errText = reason;
 }
 
-void MprpcController::SetFailed(const std::string &reason)
-{
-    m_failed = true;
-    m_errorText = reason;
-}
-
-void MprpcController::StartCancel()
-{
-    // Do nothing
-}
-bool MprpcController::IsCanceled() const
-{
-    return false; // No cancellation support
-}
-void MprpcController::NotifyOnCancel(google::protobuf::Closure *callback)
-{
-    // Do nothing
-}
+// 目前未实现具体的功能
+void MprpcController::StartCancel() {}
+bool MprpcController::IsCanceled() const { return false; }
+void MprpcController::NotifyOnCancel(google::protobuf::Closure* callback) {}

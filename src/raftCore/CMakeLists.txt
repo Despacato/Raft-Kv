@@ -1,7 +1,8 @@
-# 获取当前源文件所在目录的绝对路径
-get_filename_component(RAFTCORE_DIR "${CMAKE_CURRENT_SOURCE_DIR}" ABSOLUTE)
+set(RAFTCORE
+    ${CMAKE_CURRENT_SOURCE_DIR}/kvServer.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Persister.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/raft.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/raftRpcUtil.cpp
+)
 
-# 将该目录下所有源文件添加到 SRC_LIST 变量中
-#aux_source_directory(${RAFTCORE_DIR} RAFTCORE_LIST)
-file(GLOB RAFTCORE_LIST ${RAFTCORE_DIR}/*.cpp)
-set(src_raftCore ${RAFTCORE_LIST} CACHE INTERNAL "Description of the variable")
+set(src_raftCore ${RAFTCORE} CACHE INTERNAL "Description of the variable")

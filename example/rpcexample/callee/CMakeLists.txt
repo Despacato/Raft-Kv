@@ -2,7 +2,7 @@
 
 set(SRC_LIST 
 
-    ./userservice.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/userservice.cpp
     ../user.pb.cc
 
 )

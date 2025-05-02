@@ -5,17 +5,15 @@
 #aux_source_directory(${RPC_DIR} RPC_LIST)
 
 set(RPC_LIST
-    ./mprpcapplication.cpp
-    ./mprpcconfig.cpp
-    ./rpcprovider.cpp
-    ./mprpcchannel.cpp
-    ./rpcheader.pb.cc
-    ./mprpccontroller.cpp
-    ./logger.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/mprpcchannel.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/mprpcconfig.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/mprpccontroller.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/rpcheader.pb.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/rpcprovider.cpp     
 )
 
 #生成动态库给其他用户使用
-add_library(mprpc STATIC ${RPC_LIST})
-target_link_libraries(mprpc provider protobuf muduo_net muduo_base)
-
+add_library(rpc_lib ${RPC_LIST} ${src_common})
+target_link_libraries(rpc_lib boost_serialization)
+set(src_rpc ${RPC_LIST} CACHE INTERNAL "Description of the variable")
 
