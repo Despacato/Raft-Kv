@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/raftCoreRun.dir/raftKvDB.cpp.o -o ../../../bin/raftCoreRun   -L/home/z/Raft-Kv/lib  -Wl,-rpath,/home/z/Raft-Kv/lib ../../../lib/libskip_list_on_raft.a ../../../lib/librpc_lib.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread -lboost_serialization 
